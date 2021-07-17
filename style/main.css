@@ -29,8 +29,12 @@ header .container{
 }
 
 header .logo{
-  margin-left: 5px;
+  margin-left: 20px;
   margin-bottom: 5px;
+}
+
+header nav {
+  margin-right: 10px;
 }
 
 header nav a{
@@ -47,7 +51,8 @@ header nav a:hover{
 
 .main-movie{
   background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa-house.jpg');
-  height: 400px;
+  
+  height: 420px;
   background-size: cover;
 
   display: flex;
@@ -57,8 +62,16 @@ header nav a:hover{
 
   font-size: 20px;
 
+  
+
 }
 
+
+
+.main-movie .container{
+  margin-left: 20px;
+  width: 60%;
+}
 
 .main-movie .title {
   margin-top: 15%;
@@ -73,12 +86,9 @@ header nav a:hover{
   margin-bottom: 40px;
 }
 
-.main-movie .container, .buttons{
-  margin-left: 4px;
-}
-
 .buttons i{
   margin-right: 5px;
+  
 }
 
 .button {
@@ -89,6 +99,7 @@ header nav a:hover{
 
   padding: 15px 30px;
   margin-right: 15px;
+  margin-bottom: 10px;
 
   cursor: pointer;
   transition: .3s ease all;
@@ -96,4 +107,22 @@ header nav a:hover{
 
 .button:hover{
   background-color: rgba(0, 0, 0,.75);
+}
+
+.box-movie{
+  height: 60%;
+  width: 60%;
+  display: block;
+}
+
+/* carousel */
+
+.movies-carousel{
+  margin-top: 10px;
+}
+
+.movies-carousel p {
+  margin: 30px 0 10px 4px;
+
+  font-size: 20px;
 }
